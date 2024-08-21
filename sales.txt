@@ -1,0 +1,19 @@
+The given dataset reflects information about the sales of different country in distinct regions.
+
+
+
+1.Find the total sales.
+2.Find the country of least sales.(*)
+3. Display the country sales in North region.(*)
+4. Display all the data according to the highest sales.(*)
+5. Find the total number of countries named as nations participated in sales.(*)
+6. Find the sales of East region more than 500.(*)
+7. display country,region and sale who'average sales<800 based on region sorted by the lowest.
+8. Display country and region involved in Either North or West as EW_region.
+9. find the country which is not participated in North or South sales.(*)
+10.create different datasets d1,d2 for country named by U, and last name by k.
+11.find the countries participated in d1 and d2.
+12.d1 and d2 countries are not participated in sales further. Extract all the data and named by no_sales dataset.
+13.find the total observations and dimensions of no_sales. 
+
+

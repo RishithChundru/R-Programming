@@ -1,0 +1,43 @@
+---
+title: "Diabetes"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+n<-read.csv(file.choose())
+n
+```
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+library(graphics)
+barplot(n$Pregnancies,names.arg=n$Age,xlab='pregnancies',ylab='Age',main='Pregnancy details',col='black')
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+library(graphics)
+barplot(n$BloodPressure,names.arg=n$Age,xlab='BloodPressure',ylab='Age',main='BloodPressure details',col='black')
+```
+
+### Chart C
+
+```{r}
+
+library(graphics)
+a<-barplot(n$Glucose,names.arg=n$Age,xlab='Glucose',ylab='Age',main='Glucose details',col='black')
+
+```
